@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <h1>The Computer Component Project</h1>
+        <img src="/static/pic1.jpg" class="d-block w-100" alt="...">
+        <h1>
+            <p>We grew up with outdated ideas about computer components!</p>
+        </h1>
+        <h3><p>Our performance and efficiency are at risk. Old parts are limiting.</p></h3>
+
+        <p>Every component ever manufactured is still in use, either on outdated systems, in e-waste landfills, or even in the devices we rely on daily. The chips, the motherboards, the memory — all of these are part of the ecosystem that we need to update to keep up with modern computing demands.</p>
+        
+        <div>  
+        <img width="100%" src="{{ url_for('static', filename='pic8.JPG') }}"  />
+        </div>
+        <div>  
+        <h1>
+            <p>So let's upgrade and reduce hardware limitations!</p>
+        </h1>
+        </div>
+        <p>Our goal is to make transitioning to the latest technology accessible to everyone. We offer alternatives to upgrade your systems with the best, most efficient components available.</p>
+        <p>We want to keep it <b>easy, efficient, and cost-effective.</b> Our first step is to offer custom PC builds, featuring locally sourced components with a focus on quality, performance, and sustainability. Our ultimate goal is to open a physical store for tech enthusiasts and professionals looking for the latest in hardware solutions.</p>
+
+<!--TODO-->
+      
+        <h1>
+        <p>Our Partners</p>
+        </h1>
+        <h5>
+        <p>We’ve partnered with leading manufacturers to bring high-quality, performance-driven components to the market. Our curated suppliers focus on providing durable, high-tech components that deliver unmatched performance.</p>
+        </h5>
+        <h4><b>Our partners are chosen based on 4 key criteria:</b></h4>
+
+        <ul style="list-style-type:none;">
+            <li>High-performance components</li>
+            <li>Exceptional quality and durability</li>
+            <li>Energy-efficient and environmentally conscious</li>
+            <li>Locally sourced or major industry leaders</li>
+        </ul>
+
+        <!-- <h1>
+            <p>The Founders</p>
+        </h1> -->
+    </div>
+</div>
+
+{% endblock content %}
